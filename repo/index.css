@@ -1,0 +1,9 @@
+/* Tailwind is loaded via CDN in index.html; this file is for any additional overrides. */
+:root {
+  color-scheme: light dark;
+}
+
+html, body, #root { height: 100%; }
+
+/* Basic container width fallback if Tailwind fails to load */
+.container { max-width: 1024px; margin-inline: auto; }
